@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lectura interna · DharmaCodex</title>
+    <link rel="stylesheet" href="../../assets/styles.css">
+    <link rel="stylesheet" href="reading.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Encabezado interno">
+      <a class="brand" href="../../index.html" aria-label="DharmaCodex">
+        <picture class="brand-logo"><img src="../../assets/brand/dharmacodex_logo_gold_flat_v0_1.png" alt="DharmaCodex"></picture>
+        <span class="brand-name">DharmaCodex</span>
+      </a>
+      <button class="button secondary internal-back" id="back-button" type="button">Volver</button>
+    </header>
+    <main class="internal-shell">
+      <header class="internal-heading">
+        <p class="eyebrow">Internal Reference — Not Public Output</p>
+        <h1>Lectura interna</h1>
+        <p>Cuatro sistemas, una lectura privada por vez.</p>
+      </header>
+      <section class="internal-workspace" aria-label="Datos de lectura y representación">
+        <form id="reading-form" class="reading-form">
+          <h2>Contexto</h2>
+          <label>Nombre completo<input required name="full_name" autocomplete="name" value="Veronica Idali Cazares Diaz"></label>
+          <div class="form-two"><label>Fecha<input required type="date" name="birth_date" value="1988-08-01"></label><label>Hora<input required type="time" name="birth_time" value="12:30"></label></div>
+          <div class="form-two"><label>Latitud<input required type="number" step="any" name="latitude" value="31.7389744"></label><label>Longitud<input required type="number" step="any" name="longitude" value="-106.4832065"></label></div>
+          <label>Zona horaria IANA<input required name="timezone" value="America/Ciudad_Juarez" spellcheck="false"></label>
+          <div class="form-two"><label>Ciudad<input required name="city" value="Juárez, Chihuahua"></label><label>País<input required name="country" value="Mexico"></label></div>
+          <label>Foco<select name="focus"><option>Propósito y Misión</option><option>Dinero y Carrera</option><option>Relaciones y Pareja</option><option>Sanación Kármica</option></select></label>
+          <label>Experiencia previa<select name="experience"><option>Ninguna (Desde Cero)</option><option>Conozco mi signo</option><option>Conozco mi Carta/Diseño</option><option>Avanzado</option></select></label>
+          <button class="button primary" type="submit">Generar lectura</button>
+        </form>
+        <section class="reading-stage" aria-live="polite">
+          <div class="system-tabs" role="tablist" aria-label="Sistemas de lectura">
+            <button role="tab" aria-selected="true" data-system="astrology">Astrología</button>
+            <button role="tab" aria-selected="false" data-system="human_design">Human Design</button>
+            <button role="tab" aria-selected="false" data-system="numerology">Numerología</button>
+            <button role="tab" aria-selected="false" data-system="destiny_matrix">Matriz del Destino</button>
+          </div>
+          <div id="reading-status" class="reading-status">Ingresa el contexto para generar una lectura privada.</div>
+          <article id="representation" class="representation" hidden></article>
+        </section>
+      </section>
+    </main>
+    <script type="module" src="reading.js"></script>
+  </body>
+</html>

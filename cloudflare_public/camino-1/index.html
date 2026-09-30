@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Camino 1 · DharmaCodex</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Encabezado">
+      <a class="brand" href="../index.html" aria-label="DharmaCodex">
+        <picture class="brand-logo">
+          <source media="(max-width: 620px)" srcset="../assets/brand/dharmacodex_logo_icon_crop_v0_1.png">
+          <img src="../assets/brand/dharmacodex_logo_gold_flat_v0_1.png" alt="DharmaCodex">
+        </picture>
+        <span class="brand-name">DharmaCodex</span>
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a href="../brujula/index.html">Brújula</a>
+        <a href="../sistemas/index.html">Los 4 Sistemas</a>
+        <a aria-current="page" href="index.html">Camino 1</a>
+        <a href="../recursos/index.html">Recursos</a>
+      </nav>
+      <a class="header-cta" href="../brujula/index.html">Iniciar mi Camino</a>
+    </header>
+
+    <main>
+      <section class="section-band page-hero camino-arrival" aria-labelledby="camino-title">
+        <p class="eyebrow">Camino 1</p>
+        <h1 id="camino-title">Continuar desde tu Brújula</h1>
+        <p class="hero-copy">
+          Este tramo toma una señal breve de tu Brújula y la vuelve una pregunta practicable. Sin prisa, sin prometer una respuesta total.
+        </p>
+      </section>
+
+      <section class="section-band camino-session" aria-labelledby="camino-session-title">
+        <div class="camino-reading" id="camino-reading" hidden>
+          <p class="eyebrow">Continuidad guiada</p>
+          <h2 id="camino-session-title">Un paso posible para este momento.</h2>
+          <p class="section-copy" id="camino-origin"></p>
+
+          <div class="camino-recap">
+            <div>
+              <span class="micro-label">Foco actual</span>
+              <p id="camino-focus"></p>
+            </div>
+            <div>
+              <span class="micro-label">Coordenada</span>
+              <p id="camino-coordinate"></p>
+            </div>
+          </div>
+
+          <article class="camino-panel primary-panel">
+            <span class="micro-label">Puente desde tu Brújula</span>
+            <p id="camino-bridge"></p>
+          </article>
+
+          <div class="camino-followup">
+            <article class="camino-panel">
+              <span class="micro-label">Pregunta de integración</span>
+              <p id="camino-question"></p>
+            </article>
+            <article class="camino-panel">
+              <span class="micro-label">Práctica breve</span>
+              <p id="camino-practice"></p>
+            </article>
+          </div>
+
+          <p class="camino-closing">Un paso basta para empezar a orientarte de otra manera.</p>
+        </div>
+
+        <div class="camino-empty" id="camino-empty" hidden>
+          <p class="eyebrow">Para continuar</p>
+          <h2>Abre primero una Brújula o elige un foco para volver con más claridad.</h2>
+          <p class="section-copy">
+            Camino 1 necesita una coordenada de Brújula para mostrar una continuación específica. Si llegaste aquí directo, puedes nombrar el tema que quieres mirar y regresar al inicio.
+          </p>
+          <label class="focus-selector">
+            <span>Foco actual</span>
+            <select id="camino-focus-selector" aria-label="Foco actual para iniciar Brújula">
+              <option>Propósito y dirección</option>
+              <option>Relaciones y vínculos</option>
+              <option>Trabajo, dinero y vocación</option>
+              <option>Bienestar y energía</option>
+              <option>Momento de cambio/transición</option>
+            </select>
+          </label>
+          <a class="button primary" id="focus-return-link" href="../brujula/index.html#input-flow">Abrir Brújula inicial</a>
+        </div>
+
+        <div class="camino-links" aria-label="Siguientes pasos">
+          <a class="button secondary" href="../brujula/index.html">Volver a Brújula</a>
+          <a class="button ghost" href="../sistemas/index.html">Ver los 4 sistemas</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-grid">
+      <div>
+        <strong>DharmaCodex</strong>
+        <p>Tu mapa no es una sentencia. Es una brújula.</p>
+        <p>© 2026 DharmaCodex. Todos los derechos reservados.</p>
+      </div>
+      <nav aria-label="Navegación secundaria">
+        <a href="../sobre/index.html">Sobre DharmaCodex</a>
+        <a href="../privacidad/index.html">Privacidad y límites</a>
+        <a href="../recursos/index.html">Recursos</a>
+      </nav>
+      <div class="footer-social" aria-label="Redes sociales">
+        <a class="social-link" href="https://www.tiktok.com/@dharma.codex" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </div>
+    </footer>
+    <script src="../brujula/data/brujula-static-lookup.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

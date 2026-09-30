@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Brújula Dharma · DharmaCodex</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header" aria-label="Encabezado">
+      <a class="brand" href="../index.html" aria-label="DharmaCodex">
+        <picture class="brand-logo">
+          <source media="(max-width: 620px)" srcset="../assets/brand/dharmacodex_logo_icon_crop_v0_1.png">
+          <img src="../assets/brand/dharmacodex_logo_gold_flat_v0_1.png" alt="DharmaCodex">
+        </picture>
+        <span class="brand-name">DharmaCodex</span>
+      </a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="../index.html">Inicio</a>
+        <a aria-current="page" href="index.html">Brújula</a>
+        <a href="../sistemas/index.html">Los 4 Sistemas</a>
+        <a href="../camino-1/index.html">Camino 1</a>
+        <a href="../recursos/index.html">Recursos</a>
+      </nav>
+      <a class="header-cta" href="index.html#input-flow">Iniciar mi Camino</a>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-band" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">Brújula Dharma inicial</p>
+          <h1 id="hero-title">Una orientación breve para mirar desde donde estás.</h1>
+          <p class="hero-copy">
+            Brújula Dharma es una lectura inicial, breve y simbólica. Parte de tu fecha de nacimiento y del foco que hoy quieres mirar.
+          </p>
+          <p class="hero-copy secondary-copy">
+            La fecha ofrece una coordenada. El foco le da contexto. Juntas no definen tu vida: abren un punto de observación.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#input-flow">Iniciar mi Camino</a>
+            <a class="button secondary" href="#resultado">Ver ejemplo de Brújula</a>
+          </div>
+        </div>
+        <div class="atlas-panel atlas-panel-soft" aria-hidden="true">
+          <span class="atlas-orbit orbit-wide"></span>
+          <span class="atlas-orbit orbit-inner"></span>
+          <span class="atlas-axis axis-a"></span>
+          <span class="atlas-axis axis-b"></span>
+          <span class="atlas-path"></span>
+          <span class="atlas-node node-a"></span>
+          <span class="atlas-node node-b"></span>
+          <span class="atlas-node node-c"></span>
+        </div>
+      </section>
+
+      <section id="input-flow" class="section-band input-section" aria-labelledby="input-title">
+        <div class="section-heading">
+          <p class="eyebrow">Antes de comenzar</p>
+          <h2 id="input-title">Elige el tema que más se acerca a tu momento actual.</h2>
+          <p class="section-copy">No tiene que ser perfecto. Solo necesita ser honesto.</p>
+        </div>
+        <div class="input-grid" role="group" aria-label="Formulario estático de Brújula">
+          <label>
+            <span>Nombre opcional</span>
+            <input id="brujula-name" type="text" value="Daniel" aria-label="Nombre opcional">
+            <small class="field-note">Puedes escribir tu nombre o dejarlo en blanco.</small>
+          </label>
+          <label>
+            <span>Foco actual</span>
+            <select id="brujula-focus" aria-label="Foco actual">
+              <option>Propósito y dirección</option>
+              <option>Relaciones y vínculos</option>
+              <option selected>Trabajo, dinero y vocación</option>
+              <option>Bienestar y energía</option>
+              <option>Momento de cambio/transición</option>
+            </select>
+            <small class="field-note">¿Qué parte de tu vida pide más claridad hoy?</small>
+          </label>
+          <label>
+            <span>Fecha de nacimiento</span>
+            <input id="brujula-birth-date" type="date" value="1988-01-24" aria-label="Fecha de nacimiento">
+            <small class="field-note">Usaremos esta fecha como coordenada simbólica inicial.</small>
+          </label>
+        </div>
+        <p class="field-note input-note">Esta versión no guarda ni envía tus datos.</p>
+        <p id="form-error" class="field-error" hidden></p>
+        <div class="input-actions">
+          <button class="button primary" type="button" data-jump-result>Abrir mi lectura inicial</button>
+        </div>
+      </section>
+
+      <section class="section-band confirmation" aria-labelledby="confirm-title">
+        <div class="section-heading">
+          <p class="eyebrow">Confirmación</p>
+          <h2 id="confirm-title">Estás por abrir tu Brújula.</h2>
+          <p class="section-copy">Tu lectura inicial tomará tu fecha y tu foco actual para construir una orientación breve: una idea central, una pregunta y una práctica sencilla.</p>
+          <p class="section-copy">No necesitas llegar con certezas. Basta con mirar desde donde estás.</p>
+        </div>
+        <div class="confirm-card">
+          <div>
+            <span class="micro-label">Foco seleccionado</span>
+            <strong id="confirm-focus">Trabajo, dinero y vocación</strong>
+          </div>
+          <div>
+            <span class="micro-label">Tipo de Brújula</span>
+            <strong id="confirm-mode">Brújula inicial</strong>
+          </div>
+          <a class="button secondary" href="#resultado">Abrir mi lectura inicial</a>
+        </div>
+      </section>
+
+      <section id="resultado" class="section-band result-section" aria-labelledby="result-title">
+        <div class="result-shell">
+          <div class="result-main">
+            <p class="eyebrow" id="result-mode">Brújula inicial</p>
+            <p class="result-greeting" id="result-greeting" hidden></p>
+            <h2 id="result-title">Esta Brújula no intenta explicarlo todo.</h2>
+            <p class="result-framing">Ordena algunas señales para mirar mejor el momento que elegiste observar. Los símbolos orientan. Tu criterio permanece al centro.</p>
+            <p class="result-framing subtle">Lee despacio. Quédate con lo que te ayude a mirar mejor.</p>
+            <div class="result-block">
+              <span class="micro-label">Lectura central</span>
+              <p id="result-central"></p>
+            </div>
+          <p class="focus-pill" id="result-focus"></p>
+          <p class="coordinate" id="result-coordinate"></p>
+
+        </div>
+
+          <aside class="signals-panel" aria-labelledby="signals-title">
+            <div class="signals-heading">
+              <p class="eyebrow">Señales contextuales</p>
+              <h3 id="signals-title">Señales que acompañan esta orientación</h3>
+              <p>Estas señales no sustituyen tu criterio. Funcionan como apoyos simbólicos para mirar el foco que elegiste.</p>
+            </div>
+            <div class="signal-grid" id="signal-grid"></div>
+          </aside>
+
+          <div class="result-followup">
+            <div class="result-block">
+              <span class="micro-label">Pregunta de integración</span>
+              <p id="result-question"></p>
+            </div>
+            <div class="result-block practice">
+              <span class="micro-label">Práctica breve</span>
+              <p id="result-practice"></p>
+            </div>
+            <p class="availability-note" id="availability-note" hidden></p>
+          </div>
+          <p class="result-disclaimer" id="result-disclaimer"></p>
+        </div>
+      </section>
+
+      <section class="section-band camino" aria-labelledby="camino-title">
+        <div>
+          <p class="eyebrow">Camino 1</p>
+          <h2 id="camino-title">Si esta Brújula abrió algo en ti, no tienes que resolverlo todo ahora.</h2>
+          <p id="camino-copy"></p>
+          <p>Camino 1 existe para continuar la exploración con más calma: una señal, una pregunta y un paso a la vez.</p>
+          <p>No se trata de correr hacia una respuesta. Se trata de aprender a caminar con más presencia.</p>
+        </div>
+        <a class="button primary" id="camino-link" href="../camino-1/index.html">Continuar con Camino 1</a>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-grid">
+      <div>
+        <strong>DharmaCodex</strong>
+        <p>Tu mapa no es una sentencia. Es una brújula.</p>
+        <p>© 2026 DharmaCodex. Todos los derechos reservados.</p>
+      </div>
+      <nav aria-label="Navegación secundaria">
+        <a href="../sobre/index.html">Sobre DharmaCodex</a>
+        <a href="../privacidad/index.html">Privacidad y límites</a>
+        <a href="../recursos/index.html">Recursos</a>
+      </nav>
+      <div class="footer-social" aria-label="Redes sociales">
+        <a class="social-link" href="https://www.tiktok.com/@dharma.codex" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </div>
+    </footer>
+
+    <script src="data/public-view-models.js"></script>
+    <script src="data/brujula-static-lookup.js"></script>
+    <script src="static-engine.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

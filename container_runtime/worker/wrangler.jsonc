@@ -1,0 +1,35 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dharmacodex-runtime-internal",
+  "main": "src/index.js",
+  "compatibility_date": "2026-09-26",
+  "workers_dev": false,
+  "containers": [
+    {
+      "class_name": "DharmaCodexRuntimeContainer",
+      "image": "../Dockerfile",
+      "max_instances": 1,
+      "instance_type": "standard-1"
+    }
+  ],
+  "durable_objects": {
+    "bindings": [
+      {
+        "name": "DCX_RUNTIME_CONTAINER",
+        "class_name": "DharmaCodexRuntimeContainer"
+      }
+    ]
+  },
+  "migrations": [
+    {
+      "tag": "v1",
+      "new_sqlite_classes": ["DharmaCodexRuntimeContainer"]
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "RUNTIME_BUCKET",
+      "bucket_name": "dharmacodex-runtime-private"
+    }
+  ]
+}

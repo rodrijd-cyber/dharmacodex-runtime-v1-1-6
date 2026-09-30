@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QA Brújula · DharmaCodex</title>
+    <link rel="stylesheet" href="../assets/styles.css">
+  </head>
+  <body>
+    <header class="site-header qa-header" aria-label="Encabezado QA">
+      <a class="brand" href="../index.html" aria-label="DharmaCodex">
+        <picture class="brand-logo">
+          <source media="(max-width: 620px)" srcset="../assets/brand/dharmacodex_logo_icon_crop_v0_1.png">
+          <img src="../assets/brand/dharmacodex_logo_gold_flat_v0_1.png" alt="DharmaCodex">
+        </picture>
+        <span class="brand-name">DharmaCodex</span>
+      </a>
+      <nav class="site-nav compact" aria-label="Navegación QA">
+        <a href="../index.html">Inicio</a>
+        <a href="../brujula/index.html">Brújula pública</a>
+      </nav>
+      <nav class="state-nav" aria-label="Selector QA privado">
+        <span class="qa-label">Vista QA privada</span>
+        <button class="state-button is-active" data-state="initial" type="button">Inicial</button>
+        <button class="state-button" data-state="full" type="button">Contexto completo</button>
+        <button class="state-button" data-state="failclosed" type="button">Parcial</button>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-band" aria-labelledby="hero-title">
+        <div class="hero-content">
+          <p class="eyebrow">QA interno</p>
+          <h1 id="hero-title">Revisión privada de estados de Brújula.</h1>
+          <p class="hero-copy">
+            Esta ruta conserva los estados aprobados para revisión interna. No está enlazada desde la navegación pública.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#input-flow">Revisar flujo</a>
+            <a class="button secondary" href="#resultado">Ver resultado activo</a>
+          </div>
+        </div>
+        <div class="atlas-panel atlas-panel-soft" aria-hidden="true">
+          <span class="atlas-orbit orbit-wide"></span>
+          <span class="atlas-orbit orbit-inner"></span>
+          <span class="atlas-axis axis-a"></span>
+          <span class="atlas-axis axis-b"></span>
+          <span class="atlas-path"></span>
+          <span class="atlas-node node-a"></span>
+          <span class="atlas-node node-b"></span>
+          <span class="atlas-node node-c"></span>
+        </div>
+      </section>
+
+      <section id="input-flow" class="section-band input-section" aria-labelledby="input-title">
+        <div class="section-heading">
+          <p class="eyebrow">Datos de entrada</p>
+          <h2 id="input-title">Comparte solo el contexto necesario.</h2>
+        </div>
+        <div class="input-grid" role="group" aria-label="Formulario estático de Brújula">
+          <label>
+            <span>Nombre opcional</span>
+            <input type="text" value="Daniel" aria-label="Nombre opcional">
+          </label>
+          <label>
+            <span>Foco actual</span>
+            <select aria-label="Foco actual">
+              <option>Propósito y dirección</option>
+              <option selected>Trabajo, dinero y vocación</option>
+              <option>Relaciones y vínculos</option>
+              <option>Bienestar y energía</option>
+              <option>Momento de cambio/transición</option>
+            </select>
+          </label>
+          <label>
+            <span>Fecha de nacimiento</span>
+            <input type="date" value="1988-01-24" aria-label="Fecha de nacimiento">
+          </label>
+          <label>
+            <span>Contexto completo opcional</span>
+            <input type="text" value="Hora, ciudad y país si decides compartirlos" aria-label="Contexto completo opcional">
+            <small class="field-note">Esta versión no guarda ni envía tus datos.</small>
+            <small class="field-note">En una implementación posterior, el contexto completo se separará en hora de nacimiento, ciudad y país.</small>
+          </label>
+        </div>
+        <div class="input-actions">
+          <button class="button primary" type="button" data-jump-result>Abrir mi lectura inicial</button>
+          <button class="button ghost" type="button" data-state="initial">Continuar con Brújula inicial</button>
+        </div>
+      </section>
+
+      <section class="section-band confirmation" aria-labelledby="confirm-title">
+        <div class="section-heading">
+          <p class="eyebrow">Confirmación</p>
+          <h2 id="confirm-title">Revisa el foco antes de abrir la orientación.</h2>
+        </div>
+        <div class="confirm-card">
+          <div>
+            <span class="micro-label">Foco seleccionado</span>
+            <strong id="confirm-focus">Trabajo, dinero y vocación</strong>
+          </div>
+          <div>
+            <span class="micro-label">Tipo de Brújula</span>
+            <strong id="confirm-mode">Brújula inicial</strong>
+          </div>
+          <a class="button secondary" href="#resultado">Abrir mi lectura inicial</a>
+        </div>
+      </section>
+
+      <section id="resultado" class="section-band result-section" aria-labelledby="result-title">
+        <div class="result-shell">
+          <div class="result-main">
+            <p class="eyebrow" id="result-mode">Brújula inicial</p>
+            <h2 id="result-title">Tu orientación inicial</h2>
+            <p class="focus-pill" id="result-focus"></p>
+            <p class="coordinate" id="result-coordinate"></p>
+            <div class="result-block">
+              <span class="micro-label">Idea central</span>
+              <p id="result-central"></p>
+            </div>
+            <div class="result-block">
+              <span class="micro-label">Pregunta de integración</span>
+              <p id="result-question"></p>
+            </div>
+            <div class="result-block practice">
+              <span class="micro-label">Práctica breve</span>
+              <p id="result-practice"></p>
+            </div>
+            <p class="availability-note" id="availability-note" hidden></p>
+          </div>
+
+          <aside class="signals-panel" aria-labelledby="signals-title">
+            <div class="signals-heading">
+              <p class="eyebrow">Señales contextuales</p>
+              <h3 id="signals-title">Puntos de observación</h3>
+            </div>
+            <div class="signal-grid" id="signal-grid"></div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section-band camino" aria-labelledby="camino-title">
+        <div>
+          <p class="eyebrow">Camino 1</p>
+          <h2 id="camino-title">Del punto de observación al primer paso.</h2>
+          <p id="camino-copy"></p>
+        </div>
+        <a class="button primary" href="../camino-1/index.html">Continuar con Camino 1</a>
+      </section>
+    </main>
+
+    <footer class="site-footer site-footer-grid">
+      <div>
+        <strong>DharmaCodex</strong>
+        <p>Tu mapa no es una sentencia. Es una brújula.</p>
+        <p id="result-disclaimer"></p>
+        <p>© 2026 DharmaCodex. Todos los derechos reservados.</p>
+      </div>
+      <nav aria-label="Navegación secundaria">
+        <a href="../sobre/index.html">Sobre DharmaCodex</a>
+        <a href="../privacidad/index.html">Privacidad y límites</a>
+        <a href="../recursos/index.html">Recursos</a>
+      </nav>
+      <div class="footer-social" aria-label="Redes sociales">
+        <a class="social-link" href="https://www.tiktok.com/@dharma.codex" target="_blank" rel="noopener noreferrer">TikTok</a>
+      </div>
+    </footer>
+
+    <script src="../brujula/data/public-view-models.js"></script>
+    <script src="../brujula/data/brujula-static-lookup.js"></script>
+    <script src="../brujula/static-engine.js"></script>
+    <script src="../brujula/app.js"></script>
+  </body>
+</html>

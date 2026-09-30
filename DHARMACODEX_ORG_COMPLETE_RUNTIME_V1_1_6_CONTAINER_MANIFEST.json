@@ -1,0 +1,333 @@
+{
+  "release": "DHARMACODEX_ORG_COMPLETE_RUNTIME_V1_1_6_CONTAINER_DELTA",
+  "status": "READY_FOR_AUTHENTICATED_DEPLOY",
+  "canonical_master_sha256": "c615231ae6aebaff13097d89fc87a7bfe576eddccc637f060684634050fee27f",
+  "deployment_command": "bash container_runtime/scripts/deploy.sh",
+  "files": [
+    {
+      "path": "COMPLETE_RUNTIME_QA_REPORT.md",
+      "sha256": "9aa6eba92bbef93a7d41fbc442394afdc4aad823ecb97bbac363408bfa53f5d4",
+      "size_bytes": 3780
+    },
+    {
+      "path": "cloudflare_public/_qa/brujula.html",
+      "sha256": "7b7cfa4ffa5f29beece44ff8c5fcb97db199c283ec3ced8342873047ec9f8ec4",
+      "size_bytes": 7891
+    },
+    {
+      "path": "cloudflare_public/assets/brand/dharmacodex_logo_gold_flat_v0_1.png",
+      "sha256": "2a9ed985c0b64816a8b3437bb56ea2fcc27d0f342d9bd58d31d4bd69e46b2e7b",
+      "size_bytes": 486278
+    },
+    {
+      "path": "cloudflare_public/assets/brand/dharmacodex_logo_icon_crop_v0_1.png",
+      "sha256": "f56ab61366d75626fd915c1566c77db4d72a98eb9fba8913af2d785ddbba20f2",
+      "size_bytes": 831660
+    },
+    {
+      "path": "cloudflare_public/assets/representations/README.md",
+      "sha256": "8f6e05671184f7b2815648a5b667240215504cf5173a266c9e3bc1dbe285b500",
+      "size_bytes": 657
+    },
+    {
+      "path": "cloudflare_public/assets/representations/brujula-symbolic-map.js",
+      "sha256": "b45feda97026907ece0bf0e8ae1e449a8f8ad25b69fc6628f012b88d6efb20a2",
+      "size_bytes": 5347
+    },
+    {
+      "path": "cloudflare_public/assets/representations/geometry-tokens.js",
+      "sha256": "6f19caa31f90458515a2ceaebe87152a561fd97da8c7967c8924ce9ef95c25a9",
+      "size_bytes": 1030
+    },
+    {
+      "path": "cloudflare_public/assets/styles.css",
+      "sha256": "723d7560fd1de6d3292ecbac3eaab576627711541805ddaaa5127c910fb582eb",
+      "size_bytes": 31268
+    },
+    {
+      "path": "cloudflare_public/brujula/app.js",
+      "sha256": "a905a97bf85ec89b3e24f4642f20f5ca1110019444443b5904d47830ba02bec0",
+      "size_bytes": 6665
+    },
+    {
+      "path": "cloudflare_public/brujula/data/brujula-static-lookup.js",
+      "sha256": "56dfb9804750d70400122f86a5779639b897b2bfc195bc5468508c9cc2ec2073",
+      "size_bytes": 95951
+    },
+    {
+      "path": "cloudflare_public/brujula/data/public-view-models.js",
+      "sha256": "7a4671c5430870e47347410de07fdb6b4b826fd90aa138436b91da1e437450c2",
+      "size_bytes": 10552
+    },
+    {
+      "path": "cloudflare_public/brujula/index.html",
+      "sha256": "a1ab5e3f89ef286e4850888dea3a4c1aa2308473baa0a432afec3d8315cedd0e",
+      "size_bytes": 9102
+    },
+    {
+      "path": "cloudflare_public/brujula/static-engine.js",
+      "sha256": "14c64e3b49a4bc7dc8ec4f6928f83b82d1fc7200a63a69ed8abc6e3d662de9d3",
+      "size_bytes": 4727
+    },
+    {
+      "path": "cloudflare_public/camino-1/app.js",
+      "sha256": "21eaeb5649dd8e7ebe7d939590977895e5bf3faede947bd43f6a7827afc22695",
+      "size_bytes": 2764
+    },
+    {
+      "path": "cloudflare_public/camino-1/index.html",
+      "sha256": "546e2345772f94bbc2e0c3d96dffb7f70c4b8a94bf1a147ccefa2d9ee3aace61",
+      "size_bytes": 5130
+    },
+    {
+      "path": "cloudflare_public/functions/internal/api/reading.js",
+      "sha256": "68b1dc34e477464b482fee91de74d6078b9d21cf133ab8ca62770c498a74c749",
+      "size_bytes": 1351
+    },
+    {
+      "path": "cloudflare_public/functions/package.json",
+      "sha256": "6d58b97f13be877cbc76e3edbbc442ce8d05ffe463681fa7a3abf95ab584c7ee",
+      "size_bytes": 107
+    },
+    {
+      "path": "cloudflare_public/index.html",
+      "sha256": "e795669dd0a59244030010d19aeb3f86423a33d6015ea23570a8ce3580b1040f",
+      "size_bytes": 7746
+    },
+    {
+      "path": "cloudflare_public/internal/reading/index.html",
+      "sha256": "b2ec33a9bf5608c8555d8f6961540910d27c59df5306f9df93c13aa0107f8427",
+      "size_bytes": 3467
+    },
+    {
+      "path": "cloudflare_public/internal/reading/reading.css",
+      "sha256": "cc7d79e0ce6ca1f855a7ef4ec478264baab64197905c4e0cbc6f3042f428efc8",
+      "size_bytes": 2375
+    },
+    {
+      "path": "cloudflare_public/internal/reading/reading.js",
+      "sha256": "c57781e9eca32dac9198fcdad1de910877c2e18aee6ef9c3245ef5426215fc02",
+      "size_bytes": 1914
+    },
+    {
+      "path": "cloudflare_public/privacidad/index.html",
+      "sha256": "85a4237a317c6c3420dbd5537a31232e6256fa2255d832ea7360cdf1d7214e00",
+      "size_bytes": 3895
+    },
+    {
+      "path": "cloudflare_public/recursos/index.html",
+      "sha256": "8e18ef6a4ed6cc0aaed943272f50d68a2c60be9b50faf173a82fe82cd0a707d0",
+      "size_bytes": 4012
+    },
+    {
+      "path": "cloudflare_public/recursos/quotes.js",
+      "sha256": "4f745dcff437fc4084a818f46e3330ba367e5f9bf476d8f4fcdc80b94b639b61",
+      "size_bytes": 201
+    },
+    {
+      "path": "cloudflare_public/sistemas/index.html",
+      "sha256": "bbc6bc798b08b12a0c6678feb5a5327bfd1f2bd4f7fb53052e239f535328ce41",
+      "size_bytes": 5416
+    },
+    {
+      "path": "cloudflare_public/sobre/index.html",
+      "sha256": "601c443573a05c21f39d4e34115d527f90922a9626f735f04a73b6716de2ca64",
+      "size_bytes": 3369
+    },
+    {
+      "path": "cloudflare_public/wrangler.toml",
+      "sha256": "b73d945b10ef1ced24d4bbc242b6714981e11f3bc07e0b4f1be933b17f5fe1a4",
+      "size_bytes": 172
+    },
+    {
+      "path": "container_runtime/.dockerignore",
+      "sha256": "eb5cfbef552791979858492660b3b6cc0022a25f2ba595e8240fe044cc34016a",
+      "size_bytes": 103
+    },
+    {
+      "path": "container_runtime/Dockerfile",
+      "sha256": "82274b9c555fc5adeba5f96e96dde243a3c160eaf62443dea0e80fb64dac5cdd",
+      "size_bytes": 1247
+    },
+    {
+      "path": "container_runtime/README.md",
+      "sha256": "f3e78f4392b90c9a79cd922c01889fe94a806dede5c1af95a8ef59ea60422011",
+      "size_bytes": 664
+    },
+    {
+      "path": "container_runtime/app/__init__.py",
+      "sha256": "00379540ecf602753b1fe855c5ec4d0d2fcd5bcc66527567cbf2657be5ccf541",
+      "size_bytes": 44
+    },
+    {
+      "path": "container_runtime/app/asset_manager.py",
+      "sha256": "d7288f6b1c3b256c769edba3e5753741e2c9148ce6bcc35e8aace0d951e2ec75",
+      "size_bytes": 4692
+    },
+    {
+      "path": "container_runtime/app/canonical/Master DharmaCodex V 1.1.6 Internal Reading Renderers Code.PY",
+      "sha256": "c615231ae6aebaff13097d89fc87a7bfe576eddccc637f060684634050fee27f",
+      "size_bytes": 218590
+    },
+    {
+      "path": "container_runtime/app/master_adapter.py",
+      "sha256": "67ea551e290f862da10ac5e8737866cfccc33e89a5a7874ab2dffd39cb96342f",
+      "size_bytes": 14292
+    },
+    {
+      "path": "container_runtime/app/master_loader.py",
+      "sha256": "a059bf1d3cd9642dca85600bfa1efaf695c9c0e1f5694dcbbd950aca8f51dc46",
+      "size_bytes": 3741
+    },
+    {
+      "path": "container_runtime/app/render_cleanup.py",
+      "sha256": "0a8413eb94cc79dbe78cc97dd41727d08b0180322b5232cd84a229f9abb4c24e",
+      "size_bytes": 1324
+    },
+    {
+      "path": "container_runtime/app/schemas.py",
+      "sha256": "eecf7f190edebc135d7ebdff574b5a786b9020475d3db4f727d59b38de189b94",
+      "size_bytes": 1822
+    },
+    {
+      "path": "container_runtime/app/service.py",
+      "sha256": "0847434bfa605b506de3300ed62c48462fd03d5a6fa1b9193076c14e63329826",
+      "size_bytes": 2122
+    },
+    {
+      "path": "container_runtime/docs/DEPLOYMENT.md",
+      "sha256": "eb016ad63032b0be86515239e65a3ce33d7ab92077e7f67ec9a328e07cb49673",
+      "size_bytes": 1519
+    },
+    {
+      "path": "container_runtime/fixtures/josue.parity.json",
+      "sha256": "df342b45bd19cfa511cf61d1f7e2f4a3ec9aee1bc84aa86720e44c327f451387",
+      "size_bytes": 49520
+    },
+    {
+      "path": "container_runtime/fixtures/veronica.parity.json",
+      "sha256": "e3915fcaa5309b1dafa0a71c4f9bdd4fc2446b73939386940a901b7b02b9e997",
+      "size_bytes": 50311
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/databases/Astro_Readings_V2.0.db",
+      "sha256": "ada5c3fde64571ed397c9b4f7a52fb967348e8771216a1c2bec304bd507c1d3f",
+      "size_bytes": 1077248
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/databases/DM_DB_v2.0.db",
+      "sha256": "e36912042d57cc6272fc84f3baa37e6733f189326829884fecfdf829b9effb76",
+      "size_bytes": 155648
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/databases/HD_DB_v2.0.db",
+      "sha256": "ea81362def392ea2c9f5e3993cdc2506e78f8da7c36199356dc4edeb5ef5a2db",
+      "size_bytes": 1339392
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/databases/NUM_DB_v2.0.db",
+      "sha256": "38ebeb5ac29a152a9ddc7d65ecec6cbe700699025d75508e728e3b37cc7b450b",
+      "size_bytes": 135168
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/ephe/seas_18.se1",
+      "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2",
+      "size_bytes": 223004
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/ephe/semoon_18.se1",
+      "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7",
+      "size_bytes": 1304771
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/ephe/sepl_18.se1",
+      "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "size_bytes": 484061
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/geometry/BodyGraph.svg",
+      "sha256": "0A2FE658C2E4E517202EC6D28463CA73B0C579E186943656392D30B91917031F",
+      "size_bytes": 67662
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/geometry/DM.svg",
+      "sha256": "a774df18c6d08b32c3d5f5857b2220b44174e6a74b88cbae5efe93334da28e0e",
+      "size_bytes": 23376
+    },
+    {
+      "path": "container_runtime/r2_upload/v1.1.6/manifest.sha256.json",
+      "sha256": "14aece82bfddb7ade6be7695a57b96f78351a56e85ecfd93aaca917366dc98bd",
+      "size_bytes": 1559
+    },
+    {
+      "path": "container_runtime/requirements-dev.txt",
+      "sha256": "0bdd9879c378d08510da971788603095f586c9b4bf3a2282736484e76ffc3b8c",
+      "size_bytes": 35
+    },
+    {
+      "path": "container_runtime/requirements.lock.txt",
+      "sha256": "6091f8319deb5dd4f188d4a2d7cc53d54290956c22cba77a9ad45495182cffd7",
+      "size_bytes": 311
+    },
+    {
+      "path": "container_runtime/requirements.txt",
+      "sha256": "fb05927e8c3c5ecf27f410ab3b0d91fd3dd550d566dc03cc153094444e2b1816",
+      "size_bytes": 113
+    },
+    {
+      "path": "container_runtime/scripts/build_manifest.py",
+      "sha256": "83f956ecb5b29517d2570bf567e834462a5fe6189697d8013843e71ca5a41a0e",
+      "size_bytes": 1296
+    },
+    {
+      "path": "container_runtime/scripts/deploy.sh",
+      "sha256": "f983a3e5b0017226783913a14f052b9f2ec4d4823ac918196d68d35b1de8d5bf",
+      "size_bytes": 896
+    },
+    {
+      "path": "container_runtime/scripts/freeze_parity.py",
+      "sha256": "6e00d3b4defb923a901a3f31095046a4dc212df63e7c483c9f9a4f9c0dc06856",
+      "size_bytes": 3323
+    },
+    {
+      "path": "container_runtime/scripts/package_release.py",
+      "sha256": "af0a43de61bb1282cfd93ff6387bf4a83efbcf4d86005229da15267422e7d767",
+      "size_bytes": 2394
+    },
+    {
+      "path": "container_runtime/scripts/rollback.sh",
+      "sha256": "4e654ed3dbd47ad50dd410b6bd127a98b09f5cf772da4b2bd166776773c6fd6f",
+      "size_bytes": 359
+    },
+    {
+      "path": "container_runtime/tests/conftest.py",
+      "sha256": "0d3d85a9e1e6d237100b729d36a122a82ea12cfa9227e1270e5dd3ad55a7f12a",
+      "size_bytes": 306
+    },
+    {
+      "path": "container_runtime/tests/test_runtime.py",
+      "sha256": "b26df89833a6d5231fcdd92ef8dad9cb850c9daca00ef73c3a5a9f4339e13709",
+      "size_bytes": 5729
+    },
+    {
+      "path": "container_runtime/worker/package-lock.json",
+      "sha256": "4feb7b088c29d4460d95882bee35dd458842befe4cb60e84e3c56f170d6e393d",
+      "size_bytes": 49852
+    },
+    {
+      "path": "container_runtime/worker/package.json",
+      "sha256": "b855d08e71518d7599614e348171204dae88d2dbcb4fa363e3732ff8a327b4e6",
+      "size_bytes": 317
+    },
+    {
+      "path": "container_runtime/worker/src/index.js",
+      "sha256": "4acab6515e5cb83b7af6eb9b74b2949ad6607f6b639bb96d7dc63303ebe963cf",
+      "size_bytes": 2526
+    },
+    {
+      "path": "container_runtime/worker/wrangler.jsonc",
+      "sha256": "314dc6940f6196b28af743b523532ee11238dfd5a8ff062551e1a3f9a79ff59c",
+      "size_bytes": 766
+    }
+  ]
+}

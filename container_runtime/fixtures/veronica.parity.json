@@ -1,0 +1,2262 @@
+{
+  "input": {
+    "full_name": "Veronica Idali Cazares Diaz",
+    "birth_date": "1988-08-01",
+    "birth_time": "12:30:00",
+    "city": "Juárez, Chihuahua",
+    "country": "Mexico",
+    "latitude": 31.7389744,
+    "longitude": -106.4832065,
+    "timezone": "America/Ciudad_Juarez",
+    "focus": "Propósito y Misión",
+    "experience": "Ninguna (Desde Cero)"
+  },
+  "astrology": {
+    "points": {
+      "Sol": {
+        "name": "Sol",
+        "symbol": "☉",
+        "longitude": 129.70005881717933,
+        "speed": 0.9565773775664771,
+        "sign": "Leo",
+        "degree": 9,
+        "minute": 42,
+        "second": 0,
+        "house": 10,
+        "retrograde": false
+      },
+      "Luna": {
+        "name": "Luna",
+        "symbol": "☽",
+        "longitude": 0.3751665106511941,
+        "speed": 14.591926418166853,
+        "sign": "Aries",
+        "degree": 0,
+        "minute": 22,
+        "second": 30,
+        "house": 5,
+        "retrograde": false
+      },
+      "Mercurio": {
+        "name": "Mercurio",
+        "symbol": "☿",
+        "longitude": 128.1516918793442,
+        "speed": 2.090888159689102,
+        "sign": "Leo",
+        "degree": 8,
+        "minute": 9,
+        "second": 6,
+        "house": 10,
+        "retrograde": false
+      },
+      "Venus": {
+        "name": "Venus",
+        "symbol": "♀",
+        "longitude": 85.9651223395357,
+        "speed": 0.7380820253271667,
+        "sign": "Geminis",
+        "degree": 25,
+        "minute": 57,
+        "second": 54,
+        "house": 8,
+        "retrograde": false
+      },
+      "Marte": {
+        "name": "Marte",
+        "symbol": "♂",
+        "longitude": 7.403927100462226,
+        "speed": 0.3098208980541981,
+        "sign": "Aries",
+        "degree": 7,
+        "minute": 24,
+        "second": 14,
+        "house": 6,
+        "retrograde": false
+      },
+      "Jupiter": {
+        "name": "Jupiter",
+        "symbol": "♃",
+        "longitude": 61.73830965573825,
+        "speed": 0.15087540976751537,
+        "sign": "Geminis",
+        "degree": 1,
+        "minute": 44,
+        "second": 17,
+        "house": 8,
+        "retrograde": false
+      },
+      "Saturno": {
+        "name": "Saturno",
+        "symbol": "♄",
+        "longitude": 266.57064425445475,
+        "speed": -0.043382860842781874,
+        "sign": "Sagitario",
+        "degree": 26,
+        "minute": 34,
+        "second": 14,
+        "house": 2,
+        "retrograde": true
+      },
+      "Urano": {
+        "name": "Urano",
+        "symbol": "♅",
+        "longitude": 267.5256057120213,
+        "speed": -0.02655271150252965,
+        "sign": "Sagitario",
+        "degree": 27,
+        "minute": 31,
+        "second": 32,
+        "house": 3,
+        "retrograde": true
+      },
+      "Neptuno": {
+        "name": "Neptuno",
+        "symbol": "♆",
+        "longitude": 277.99398148685765,
+        "speed": -0.021961057654148537,
+        "sign": "Capricornio",
+        "degree": 7,
+        "minute": 59,
+        "second": 38,
+        "house": 3,
+        "retrograde": true
+      },
+      "Pluton": {
+        "name": "Pluton",
+        "symbol": "♇",
+        "longitude": 219.804803514813,
+        "speed": 0.007151008814476485,
+        "sign": "Escorpio",
+        "degree": 9,
+        "minute": 48,
+        "second": 17,
+        "house": 1,
+        "retrograde": false
+      },
+      "Nodo Norte": {
+        "name": "Nodo Norte",
+        "symbol": "☊",
+        "longitude": 344.4830440180473,
+        "speed": 0.017018480367304863,
+        "sign": "Piscis",
+        "degree": 14,
+        "minute": 28,
+        "second": 58,
+        "house": 5,
+        "retrograde": false
+      },
+      "Nodo Sur": {
+        "name": "Nodo Sur",
+        "symbol": "☋",
+        "longitude": 164.48304401804728,
+        "speed": 0.017018480367304863,
+        "sign": "Virgo",
+        "degree": 14,
+        "minute": 28,
+        "second": 58,
+        "house": 11,
+        "retrograde": false
+      },
+      "Lilith": {
+        "name": "Lilith",
+        "symbol": "⚸",
+        "longitude": 158.86015162510856,
+        "speed": 0.11073194474013147,
+        "sign": "Virgo",
+        "degree": 8,
+        "minute": 51,
+        "second": 36,
+        "house": 11,
+        "retrograde": false
+      },
+      "Quiron": {
+        "name": "Quiron",
+        "symbol": "⚷",
+        "longitude": 93.69937547971813,
+        "speed": 0.08134876407779933,
+        "sign": "Cancer",
+        "degree": 3,
+        "minute": 41,
+        "second": 57,
+        "house": 9,
+        "retrograde": false
+      }
+    },
+    "angles": {
+      "Ascendente": {
+        "name": "Ascendente",
+        "symbol": "ASC",
+        "longitude": 207.0165128023971,
+        "speed": 0.0,
+        "sign": "Libra",
+        "degree": 27,
+        "minute": 0,
+        "second": 59,
+        "house": 1,
+        "retrograde": false
+      },
+      "Descendente": {
+        "name": "Descendente",
+        "symbol": "DSC",
+        "longitude": 27.016512802397074,
+        "speed": 0.0,
+        "sign": "Aries",
+        "degree": 27,
+        "minute": 0,
+        "second": 59,
+        "house": 7,
+        "retrograde": false
+      },
+      "Medio Cielo": {
+        "name": "Medio Cielo",
+        "symbol": "MC",
+        "longitude": 119.437709143434,
+        "speed": 0.0,
+        "sign": "Cancer",
+        "degree": 29,
+        "minute": 26,
+        "second": 15,
+        "house": 10,
+        "retrograde": false
+      },
+      "Fondo Cielo": {
+        "name": "Fondo Cielo",
+        "symbol": "IC",
+        "longitude": 299.437709143434,
+        "speed": 0.0,
+        "sign": "Capricornio",
+        "degree": 29,
+        "minute": 26,
+        "second": 15,
+        "house": 4,
+        "retrograde": false
+      }
+    },
+    "houses": [
+      {
+        "number": 1,
+        "longitude": 207.0165128023971,
+        "sign": "Libra",
+        "degree": 27,
+        "minute": 0,
+        "second": 59
+      },
+      {
+        "number": 2,
+        "longitude": 235.6486163581273,
+        "sign": "Escorpio",
+        "degree": 25,
+        "minute": 38,
+        "second": 55
+      },
+      {
+        "number": 3,
+        "longitude": 266.7151590071357,
+        "sign": "Sagitario",
+        "degree": 26,
+        "minute": 42,
+        "second": 54
+      },
+      {
+        "number": 4,
+        "longitude": 299.437709143434,
+        "sign": "Capricornio",
+        "degree": 29,
+        "minute": 26,
+        "second": 15
+      },
+      {
+        "number": 5,
+        "longitude": 331.8554273686793,
+        "sign": "Piscis",
+        "degree": 1,
+        "minute": 51,
+        "second": 19
+      },
+      {
+        "number": 6,
+        "longitude": 1.4758830658737452,
+        "sign": "Aries",
+        "degree": 1,
+        "minute": 28,
+        "second": 33
+      },
+      {
+        "number": 7,
+        "longitude": 27.016512802397074,
+        "sign": "Aries",
+        "degree": 27,
+        "minute": 0,
+        "second": 59
+      },
+      {
+        "number": 8,
+        "longitude": 55.6486163581273,
+        "sign": "Tauro",
+        "degree": 25,
+        "minute": 38,
+        "second": 55
+      },
+      {
+        "number": 9,
+        "longitude": 86.7151590071357,
+        "sign": "Geminis",
+        "degree": 26,
+        "minute": 42,
+        "second": 54
+      },
+      {
+        "number": 10,
+        "longitude": 119.437709143434,
+        "sign": "Cancer",
+        "degree": 29,
+        "minute": 26,
+        "second": 15
+      },
+      {
+        "number": 11,
+        "longitude": 151.85542736867927,
+        "sign": "Virgo",
+        "degree": 1,
+        "minute": 51,
+        "second": 19
+      },
+      {
+        "number": 12,
+        "longitude": 181.47588306587375,
+        "sign": "Libra",
+        "degree": 1,
+        "minute": 28,
+        "second": 33
+      }
+    ],
+    "aspects": [
+      {
+        "point_a": "Sol",
+        "type": "Conjuncion",
+        "point_b": "Mercurio",
+        "orb": 1.55,
+        "family": "neutral"
+      },
+      {
+        "point_a": "Sol",
+        "type": "Trigono",
+        "point_b": "Marte",
+        "orb": 2.3,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Sol",
+        "type": "Quincuncio",
+        "point_b": "Neptuno",
+        "orb": 1.71,
+        "family": "tense"
+      },
+      {
+        "point_a": "Sol",
+        "type": "Cuadratura",
+        "point_b": "Pluton",
+        "orb": 0.1,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Trigono",
+        "point_b": "Mercurio",
+        "orb": 7.78,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Cuadratura",
+        "point_b": "Venus",
+        "orb": 4.41,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Conjuncion",
+        "point_b": "Marte",
+        "orb": 7.03,
+        "family": "neutral"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Sextil",
+        "point_b": "Jupiter",
+        "orb": 1.36,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Cuadratura",
+        "point_b": "Saturno",
+        "orb": 3.8,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Cuadratura",
+        "point_b": "Urano",
+        "orb": 2.85,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Cuadratura",
+        "point_b": "Neptuno",
+        "orb": 7.62,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Cuadratura",
+        "point_b": "Quiron",
+        "orb": 3.32,
+        "family": "tense"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Trigono",
+        "point_b": "Medio Cielo",
+        "orb": 0.94,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Luna",
+        "type": "Sextil",
+        "point_b": "Fondo Cielo",
+        "orb": 0.94,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Mercurio",
+        "type": "Trigono",
+        "point_b": "Marte",
+        "orb": 0.75,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Mercurio",
+        "type": "Quincuncio",
+        "point_b": "Neptuno",
+        "orb": 0.16,
+        "family": "tense"
+      },
+      {
+        "point_a": "Mercurio",
+        "type": "Cuadratura",
+        "point_b": "Pluton",
+        "orb": 1.65,
+        "family": "tense"
+      },
+      {
+        "point_a": "Venus",
+        "type": "Oposicion",
+        "point_b": "Saturno",
+        "orb": 0.61,
+        "family": "tense"
+      },
+      {
+        "point_a": "Venus",
+        "type": "Oposicion",
+        "point_b": "Urano",
+        "orb": 1.56,
+        "family": "tense"
+      },
+      {
+        "point_a": "Venus",
+        "type": "Conjuncion",
+        "point_b": "Quiron",
+        "orb": 7.73,
+        "family": "neutral"
+      },
+      {
+        "point_a": "Venus",
+        "type": "Trigono",
+        "point_b": "Ascendente",
+        "orb": 1.05,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Venus",
+        "type": "Sextil",
+        "point_b": "Descendente",
+        "orb": 1.05,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Sextil",
+        "point_b": "Jupiter",
+        "orb": 5.67,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Cuadratura",
+        "point_b": "Neptuno",
+        "orb": 0.59,
+        "family": "tense"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Quincuncio",
+        "point_b": "Pluton",
+        "orb": 2.4,
+        "family": "tense"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Quincuncio",
+        "point_b": "Lilith",
+        "orb": 1.46,
+        "family": "tense"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Cuadratura",
+        "point_b": "Quiron",
+        "orb": 3.7,
+        "family": "tense"
+      },
+      {
+        "point_a": "Marte",
+        "type": "Trigono",
+        "point_b": "Medio Cielo",
+        "orb": 7.97,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Jupiter",
+        "type": "Cuadratura",
+        "point_b": "Lilith",
+        "orb": 7.12,
+        "family": "tense"
+      },
+      {
+        "point_a": "Jupiter",
+        "type": "Sextil",
+        "point_b": "Medio Cielo",
+        "orb": 2.3,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Jupiter",
+        "type": "Trigono",
+        "point_b": "Fondo Cielo",
+        "orb": 2.3,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Saturno",
+        "type": "Conjuncion",
+        "point_b": "Urano",
+        "orb": 0.95,
+        "family": "neutral"
+      },
+      {
+        "point_a": "Saturno",
+        "type": "Oposicion",
+        "point_b": "Quiron",
+        "orb": 7.13,
+        "family": "tense"
+      },
+      {
+        "point_a": "Saturno",
+        "type": "Sextil",
+        "point_b": "Ascendente",
+        "orb": 0.45,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Saturno",
+        "type": "Trigono",
+        "point_b": "Descendente",
+        "orb": 0.45,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Saturno",
+        "type": "Quincuncio",
+        "point_b": "Medio Cielo",
+        "orb": 2.87,
+        "family": "tense"
+      },
+      {
+        "point_a": "Urano",
+        "type": "Oposicion",
+        "point_b": "Quiron",
+        "orb": 6.17,
+        "family": "tense"
+      },
+      {
+        "point_a": "Urano",
+        "type": "Sextil",
+        "point_b": "Ascendente",
+        "orb": 0.51,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Urano",
+        "type": "Trigono",
+        "point_b": "Descendente",
+        "orb": 0.51,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Urano",
+        "type": "Quincuncio",
+        "point_b": "Medio Cielo",
+        "orb": 1.91,
+        "family": "tense"
+      },
+      {
+        "point_a": "Neptuno",
+        "type": "Sextil",
+        "point_b": "Pluton",
+        "orb": 1.81,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Neptuno",
+        "type": "Trigono",
+        "point_b": "Nodo Sur",
+        "orb": 6.49,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Neptuno",
+        "type": "Trigono",
+        "point_b": "Lilith",
+        "orb": 0.87,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Neptuno",
+        "type": "Oposicion",
+        "point_b": "Quiron",
+        "orb": 4.29,
+        "family": "tense"
+      },
+      {
+        "point_a": "Pluton",
+        "type": "Trigono",
+        "point_b": "Nodo Norte",
+        "orb": 4.68,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Pluton",
+        "type": "Sextil",
+        "point_b": "Nodo Sur",
+        "orb": 4.68,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Pluton",
+        "type": "Sextil",
+        "point_b": "Lilith",
+        "orb": 0.94,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Pluton",
+        "type": "Trigono",
+        "point_b": "Quiron",
+        "orb": 6.11,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Nodo Norte",
+        "type": "Oposicion",
+        "point_b": "Nodo Sur",
+        "orb": 0.0,
+        "family": "tense"
+      },
+      {
+        "point_a": "Nodo Norte",
+        "type": "Oposicion",
+        "point_b": "Lilith",
+        "orb": 5.62,
+        "family": "tense"
+      },
+      {
+        "point_a": "Nodo Sur",
+        "type": "Conjuncion",
+        "point_b": "Lilith",
+        "orb": 5.62,
+        "family": "neutral"
+      },
+      {
+        "point_a": "Lilith",
+        "type": "Sextil",
+        "point_b": "Quiron",
+        "orb": 5.16,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Quiron",
+        "type": "Trigono",
+        "point_b": "Ascendente",
+        "orb": 6.68,
+        "family": "harmonious"
+      },
+      {
+        "point_a": "Ascendente",
+        "type": "Oposicion",
+        "point_b": "Descendente",
+        "orb": 0.0,
+        "family": "tense"
+      },
+      {
+        "point_a": "Ascendente",
+        "type": "Cuadratura",
+        "point_b": "Medio Cielo",
+        "orb": 2.42,
+        "family": "tense"
+      },
+      {
+        "point_a": "Ascendente",
+        "type": "Cuadratura",
+        "point_b": "Fondo Cielo",
+        "orb": 2.42,
+        "family": "tense"
+      },
+      {
+        "point_a": "Descendente",
+        "type": "Cuadratura",
+        "point_b": "Medio Cielo",
+        "orb": 2.42,
+        "family": "tense"
+      },
+      {
+        "point_a": "Descendente",
+        "type": "Cuadratura",
+        "point_b": "Fondo Cielo",
+        "orb": 2.42,
+        "family": "tense"
+      },
+      {
+        "point_a": "Medio Cielo",
+        "type": "Oposicion",
+        "point_b": "Fondo Cielo",
+        "orb": 0.0,
+        "family": "tense"
+      }
+    ],
+    "balance": {
+      "elements": {
+        "FIRE": 6,
+        "AIR": 2,
+        "EARTH": 1,
+        "WATER": 1
+      },
+      "modalities": {
+        "FIXED": 3,
+        "CARDINAL": 3,
+        "MUTABLE": 4
+      },
+      "polarities": {
+        "YANG": 8,
+        "YIN": 2
+      },
+      "dominant_element": "FIRE",
+      "dominant_modality": "MUTABLE",
+      "dominant_polarity": "YANG",
+      "source": "master_calculated_points + Astro_Readings_V2.0.SIGNS"
+    }
+  },
+  "human_design": {
+    "personality": {
+      "Sol": "33.3",
+      "Tierra": "19.3",
+      "Nodo Norte": "63.4",
+      "Nodo Sur": "64.4",
+      "Luna": "25.3",
+      "Mercurio": "33.1",
+      "Venus": "12.4",
+      "Marte": "17.4",
+      "Jupiter": "20.2",
+      "Saturno": "11.5",
+      "Urano": "11.6",
+      "Neptuno": "58.5",
+      "Pluton": "44.3"
+    },
+    "design": {
+      "Sol": "24.5",
+      "Tierra": "44.5",
+      "Nodo Norte": "22.6",
+      "Nodo Sur": "47.6",
+      "Luna": "44.4",
+      "Mercurio": "23.6",
+      "Venus": "12.1",
+      "Marte": "13.4",
+      "Jupiter": "24.6",
+      "Saturno": "10.5",
+      "Urano": "10.3",
+      "Neptuno": "38.1",
+      "Pluton": "44.4"
+    },
+    "gate_states": {
+      "1": "OPEN",
+      "2": "OPEN",
+      "3": "OPEN",
+      "4": "OPEN",
+      "5": "OPEN",
+      "6": "OPEN",
+      "7": "OPEN",
+      "8": "OPEN",
+      "9": "OPEN",
+      "10": "D",
+      "11": "P",
+      "12": "BOTH",
+      "13": "D",
+      "14": "OPEN",
+      "15": "OPEN",
+      "16": "OPEN",
+      "17": "P",
+      "18": "OPEN",
+      "19": "P",
+      "20": "P",
+      "21": "OPEN",
+      "22": "D",
+      "23": "D",
+      "24": "D",
+      "25": "P",
+      "26": "OPEN",
+      "27": "OPEN",
+      "28": "OPEN",
+      "29": "OPEN",
+      "30": "OPEN",
+      "31": "OPEN",
+      "32": "OPEN",
+      "33": "P",
+      "34": "OPEN",
+      "35": "OPEN",
+      "36": "OPEN",
+      "37": "OPEN",
+      "38": "D",
+      "39": "OPEN",
+      "40": "OPEN",
+      "41": "OPEN",
+      "42": "OPEN",
+      "43": "OPEN",
+      "44": "BOTH",
+      "45": "OPEN",
+      "46": "OPEN",
+      "47": "D",
+      "48": "OPEN",
+      "49": "OPEN",
+      "50": "OPEN",
+      "51": "OPEN",
+      "52": "OPEN",
+      "53": "OPEN",
+      "54": "OPEN",
+      "55": "OPEN",
+      "56": "OPEN",
+      "57": "OPEN",
+      "58": "P",
+      "59": "OPEN",
+      "60": "OPEN",
+      "61": "OPEN",
+      "62": "OPEN",
+      "63": "P",
+      "64": "P"
+    },
+    "active_channels": [
+      "10-20",
+      "12-22",
+      "33-13",
+      "64-47"
+    ],
+    "defined_centers": [
+      "Ajna",
+      "Cabeza",
+      "Centro G",
+      "Garganta",
+      "Plexo Solar"
+    ],
+    "open_centers": [
+      "Corazon",
+      "Bazo",
+      "Sacral",
+      "Raiz"
+    ],
+    "type": "Manifestador",
+    "strategy": "Informar",
+    "authority": "Emocional",
+    "profile": "3/5",
+    "incarnation_cross": {
+      "cross_id": "RIGHT_ANGLE_CROSS_OF_FOUR_WAYS_33",
+      "cross_name": "Cruz de Ángulo Derecho de los Cuatro Caminos 2",
+      "geometry_type": "Ángulo Derecho / Destino Personal",
+      "sun_personality_gate_line": "33.3",
+      "sun_design_gate_line": "24.5",
+      "cross_gates_structure": "33-19-24-44"
+    }
+  },
+  "numerology": {
+    "core": {
+      "Camino de Vida": {
+        "value": 8,
+        "raw": 35,
+        "steps": [
+          35,
+          8
+        ],
+        "preserve_master": true
+      },
+      "Expresion / Destino": {
+        "value": 1,
+        "raw": 37,
+        "steps": [
+          37,
+          10,
+          1
+        ],
+        "word_rows": [
+          {
+            "word": "VERONICA",
+            "raw": 42,
+            "steps": [
+              42,
+              6
+            ],
+            "reduced": 6
+          },
+          {
+            "word": "IDALI",
+            "raw": 26,
+            "steps": [
+              26,
+              8
+            ],
+            "reduced": 8
+          },
+          {
+            "word": "CAZARES",
+            "raw": 28,
+            "steps": [
+              28,
+              10,
+              1
+            ],
+            "reduced": 1
+          },
+          {
+            "word": "DIAZ",
+            "raw": 22,
+            "steps": [
+              22
+            ],
+            "reduced": 22
+          }
+        ],
+        "preserve_master": true
+      },
+      "Impulso del Alma": {
+        "value": 3,
+        "raw": 57,
+        "steps": [
+          57,
+          12,
+          3
+        ],
+        "preserve_master": true
+      },
+      "Personalidad": {
+        "value": 7,
+        "raw": 61,
+        "steps": [
+          61,
+          7
+        ],
+        "preserve_master": true
+      },
+      "Dia de Nacimiento": {
+        "value": 1,
+        "raw": 1,
+        "steps": [
+          1
+        ],
+        "preserve_master": false
+      },
+      "Ano Personal": {
+        "value": 1,
+        "raw": 2035,
+        "steps": [
+          2035,
+          10,
+          1
+        ],
+        "year": 2026,
+        "preserve_master": false
+      }
+    },
+    "markers": {
+      "master_numbers_present": [],
+      "karmic_alerts": []
+    },
+    "life_stages": {
+      "first_stage_ends": 28,
+      "pinnacles": {
+        "P1": 9,
+        "P2": 9,
+        "P3": 9,
+        "P4": 7
+      },
+      "challenges": {
+        "D1": 7,
+        "D2": 7,
+        "D3": 0,
+        "D4": 0
+      }
+    },
+    "natal_grid": {
+      "1": "11",
+      "2": "",
+      "3": "",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "8": "888",
+      "9": "9"
+    },
+    "digit_counts": {
+      "1": 2,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0,
+      "8": 3,
+      "9": 1
+    },
+    "arrows": {
+      "strength": [],
+      "weakness": [
+        {
+          "name": "Escepticismo",
+          "digits": [
+            3,
+            5,
+            7
+          ],
+          "kind": "weakness",
+          "reading": "Ausencia de la diagonal espiritual. Provoca un exceso de racionalización y duda constante ante lo no tangible. Exige pruebas científicas o materiales para confiar en algo o alguien.",
+          "canonical_name": "Escepticismo"
+        },
+        {
+          "name": "Frustración",
+          "digits": [
+            4,
+            5,
+            6
+          ],
+          "kind": "weakness",
+          "reading": "Ausencia de la columna central de la cuadrícula. Genera una baja tolerancia a la contrariedad; la persona siente impotencia rápida cuando las cosas no salen según lo previsto, rindiéndose fácilmente.",
+          "canonical_name": "Frustración"
+        }
+      ]
+    }
+  },
+  "destiny_matrix": {
+    "values": {
+      "a": 1,
+      "b": 8,
+      "c": 8,
+      "d": 17,
+      "e": 7,
+      "b2": 15,
+      "b1": 5,
+      "d1": 6,
+      "d2": 5,
+      "f": 9,
+      "g": 16,
+      "y": 7,
+      "k": 18,
+      "e1": 5,
+      "e2": 12,
+      "s1": 14,
+      "s2": 5,
+      "s4": 12,
+      "s3": 19,
+      "p1": 21,
+      "p2": 10,
+      "p3": 5,
+      "p4": 5,
+      "a1": 8,
+      "a2": 9,
+      "c1": 15,
+      "c2": 5,
+      "x": 21,
+      "x1": 9,
+      "x2": 9,
+      "a3": 15,
+      "b3": 22
+    },
+    "channels": {
+      "Cola Karmica": {
+        "Cola Karmica": [
+          17,
+          6,
+          5
+        ]
+      },
+      "Cruz Principal": {
+        "Canal de Talentos": [
+          8,
+          15,
+          5
+        ],
+        "Karma Material": [
+          8,
+          15,
+          5
+        ],
+        "Karma Padres e Hijos": [
+          1,
+          8,
+          9
+        ]
+      },
+      "Linea del Bienestar": {
+        "Canal del Dinero": [
+          21,
+          9,
+          15
+        ],
+        "Canal de Relaciones": [
+          21,
+          9,
+          6
+        ],
+        "Punto de Equilibrio": [
+          21
+        ]
+      },
+      "Linaje Ancestral": {
+        "Linaje Masculino Virtudes": [
+          9,
+          14,
+          5
+        ],
+        "Linaje Masculino Cargas": [
+          7,
+          12,
+          19
+        ],
+        "Linaje Femenino Virtudes": [
+          16,
+          21,
+          10
+        ],
+        "Linaje Femenino Cargas": [
+          18,
+          5,
+          5
+        ]
+      },
+      "Nucleo y Sexualidad": {
+        "Centro de Confort": [
+          7
+        ],
+        "Arquetipo de Sexualidad": [
+          7,
+          5,
+          12
+        ]
+      }
+    },
+    "karmic_tail_governance": {
+      "status": "RESOLVED",
+      "ordered_triad": [
+        17,
+        6,
+        5
+      ],
+      "triad_key": "17.6.5",
+      "row": {
+        "KARMIC_TAIL": "17.6.5",
+        "KARMIC_TAIL_NAME": "Orgullo / Soberbia",
+        "TAIL_PAST_SoulDebt": "Tuviste intelecto, belleza o un estatus elevado y miraste a los demás con desprecio. Fuiste arrogante y cerraste tu corazón.",
+        "TAIL_PRESENT_SHADOW_Challenge": "Complejo de superioridad que oculta una gran inseguridad. Dificultad para pedir ayuda. Soledad porque sientes que 'nadie está a tu nivel'.",
+        "TAIL_HEALING_LESSON_Integration": "Practicar la humildad. Aprender a ver la divinidad en cada ser humano y compartir tu conocimiento y talento (5, 17) para elevar a otros."
+      }
+    },
+    "life_cycle": {
+      "anchors": [
+        [
+          0,
+          1,
+          "a"
+        ],
+        [
+          10,
+          9,
+          "f"
+        ],
+        [
+          20,
+          8,
+          "b"
+        ],
+        [
+          30,
+          16,
+          "g"
+        ],
+        [
+          40,
+          8,
+          "c"
+        ],
+        [
+          50,
+          7,
+          "y"
+        ],
+        [
+          60,
+          17,
+          "d"
+        ],
+        [
+          70,
+          18,
+          "k"
+        ],
+        [
+          80,
+          1,
+          "a"
+        ]
+      ],
+      "rows": [
+        {
+          "age": "0",
+          "age_value": 0.0,
+          "arcane": 1,
+          "formula": "a",
+          "decade_start": 0
+        },
+        {
+          "age": "1 - 2.5",
+          "age_value": 1.25,
+          "arcane": 12,
+          "formula": "a+q1",
+          "decade_start": 0
+        },
+        {
+          "age": "2.5 - 3.5",
+          "age_value": 2.5,
+          "arcane": 11,
+          "formula": "a+mid",
+          "decade_start": 0
+        },
+        {
+          "age": "3.5 - 4",
+          "age_value": 3.75,
+          "arcane": 21,
+          "formula": "q1+mid",
+          "decade_start": 0
+        },
+        {
+          "age": "5",
+          "age_value": 5.0,
+          "arcane": 10,
+          "formula": "a+f",
+          "decade_start": 0
+        },
+        {
+          "age": "6 - 7.5",
+          "age_value": 6.25,
+          "arcane": 11,
+          "formula": "mid+q3",
+          "decade_start": 0
+        },
+        {
+          "age": "7.5 - 8.5",
+          "age_value": 7.5,
+          "arcane": 19,
+          "formula": "mid+f",
+          "decade_start": 0
+        },
+        {
+          "age": "8.5 - 9",
+          "age_value": 8.75,
+          "arcane": 10,
+          "formula": "q3+f",
+          "decade_start": 0
+        },
+        {
+          "age": "10",
+          "age_value": 10.0,
+          "arcane": 9,
+          "formula": "f",
+          "decade_start": 10
+        },
+        {
+          "age": "11 - 12.5",
+          "age_value": 11.25,
+          "arcane": 17,
+          "formula": "f+q1",
+          "decade_start": 10
+        },
+        {
+          "age": "12.5 - 13.5",
+          "age_value": 12.5,
+          "arcane": 8,
+          "formula": "f+mid",
+          "decade_start": 10
+        },
+        {
+          "age": "13.5 - 14",
+          "age_value": 13.75,
+          "arcane": 7,
+          "formula": "q1+mid",
+          "decade_start": 10
+        },
+        {
+          "age": "15",
+          "age_value": 15.0,
+          "arcane": 17,
+          "formula": "f+b",
+          "decade_start": 10
+        },
+        {
+          "age": "16 - 17.5",
+          "age_value": 16.25,
+          "arcane": 6,
+          "formula": "mid+q3",
+          "decade_start": 10
+        },
+        {
+          "age": "17.5 - 18.5",
+          "age_value": 17.5,
+          "arcane": 7,
+          "formula": "mid+b",
+          "decade_start": 10
+        },
+        {
+          "age": "18.5 - 19",
+          "age_value": 18.75,
+          "arcane": 15,
+          "formula": "q3+b",
+          "decade_start": 10
+        },
+        {
+          "age": "20",
+          "age_value": 20.0,
+          "arcane": 8,
+          "formula": "b",
+          "decade_start": 20
+        },
+        {
+          "age": "21 - 22.5",
+          "age_value": 21.25,
+          "arcane": 22,
+          "formula": "b+q1",
+          "decade_start": 20
+        },
+        {
+          "age": "22.5 - 23.5",
+          "age_value": 22.5,
+          "arcane": 14,
+          "formula": "b+mid",
+          "decade_start": 20
+        },
+        {
+          "age": "23.5 - 24",
+          "age_value": 23.75,
+          "arcane": 20,
+          "formula": "q1+mid",
+          "decade_start": 20
+        },
+        {
+          "age": "25",
+          "age_value": 25.0,
+          "arcane": 6,
+          "formula": "b+g",
+          "decade_start": 20
+        },
+        {
+          "age": "26 - 27.5",
+          "age_value": 26.25,
+          "arcane": 10,
+          "formula": "mid+q3",
+          "decade_start": 20
+        },
+        {
+          "age": "27.5 - 28.5",
+          "age_value": 27.5,
+          "arcane": 22,
+          "formula": "mid+g",
+          "decade_start": 20
+        },
+        {
+          "age": "28.5 - 29",
+          "age_value": 28.75,
+          "arcane": 11,
+          "formula": "q3+g",
+          "decade_start": 20
+        },
+        {
+          "age": "30",
+          "age_value": 30.0,
+          "arcane": 16,
+          "formula": "g",
+          "decade_start": 30
+        },
+        {
+          "age": "31 - 32.5",
+          "age_value": 31.25,
+          "arcane": 11,
+          "formula": "g+q1",
+          "decade_start": 30
+        },
+        {
+          "age": "32.5 - 33.5",
+          "age_value": 32.5,
+          "arcane": 22,
+          "formula": "g+mid",
+          "decade_start": 30
+        },
+        {
+          "age": "33.5 - 34",
+          "age_value": 33.75,
+          "arcane": 10,
+          "formula": "q1+mid",
+          "decade_start": 30
+        },
+        {
+          "age": "35",
+          "age_value": 35.0,
+          "arcane": 6,
+          "formula": "g+c",
+          "decade_start": 30
+        },
+        {
+          "age": "36 - 37.5",
+          "age_value": 36.25,
+          "arcane": 20,
+          "formula": "mid+q3",
+          "decade_start": 30
+        },
+        {
+          "age": "37.5 - 38.5",
+          "age_value": 37.5,
+          "arcane": 14,
+          "formula": "mid+c",
+          "decade_start": 30
+        },
+        {
+          "age": "38.5 - 39",
+          "age_value": 38.75,
+          "arcane": 22,
+          "formula": "q3+c",
+          "decade_start": 30
+        },
+        {
+          "age": "40",
+          "age_value": 40.0,
+          "arcane": 8,
+          "formula": "c",
+          "decade_start": 40
+        },
+        {
+          "age": "41 - 42.5",
+          "age_value": 41.25,
+          "arcane": 13,
+          "formula": "c+q1",
+          "decade_start": 40
+        },
+        {
+          "age": "42.5 - 43.5",
+          "age_value": 42.5,
+          "arcane": 5,
+          "formula": "c+mid",
+          "decade_start": 40
+        },
+        {
+          "age": "43.5 - 44",
+          "age_value": 43.75,
+          "arcane": 20,
+          "formula": "q1+mid",
+          "decade_start": 40
+        },
+        {
+          "age": "45",
+          "age_value": 45.0,
+          "arcane": 15,
+          "formula": "c+y",
+          "decade_start": 40
+        },
+        {
+          "age": "46 - 47.5",
+          "age_value": 46.25,
+          "arcane": 10,
+          "formula": "mid+q3",
+          "decade_start": 40
+        },
+        {
+          "age": "47.5 - 48.5",
+          "age_value": 47.5,
+          "arcane": 22,
+          "formula": "mid+y",
+          "decade_start": 40
+        },
+        {
+          "age": "48.5 - 49",
+          "age_value": 48.75,
+          "arcane": 11,
+          "formula": "q3+y",
+          "decade_start": 40
+        },
+        {
+          "age": "50",
+          "age_value": 50.0,
+          "arcane": 7,
+          "formula": "y",
+          "decade_start": 50
+        },
+        {
+          "age": "51 - 52.5",
+          "age_value": 51.25,
+          "arcane": 20,
+          "formula": "y+q1",
+          "decade_start": 50
+        },
+        {
+          "age": "52.5 - 53.5",
+          "age_value": 52.5,
+          "arcane": 13,
+          "formula": "y+mid",
+          "decade_start": 50
+        },
+        {
+          "age": "53.5 - 54",
+          "age_value": 53.75,
+          "arcane": 19,
+          "formula": "q1+mid",
+          "decade_start": 50
+        },
+        {
+          "age": "55",
+          "age_value": 55.0,
+          "arcane": 6,
+          "formula": "y+d",
+          "decade_start": 50
+        },
+        {
+          "age": "56 - 57.5",
+          "age_value": 56.25,
+          "arcane": 11,
+          "formula": "mid+q3",
+          "decade_start": 50
+        },
+        {
+          "age": "57.5 - 58.5",
+          "age_value": 57.5,
+          "arcane": 5,
+          "formula": "mid+d",
+          "decade_start": 50
+        },
+        {
+          "age": "58.5 - 59",
+          "age_value": 58.75,
+          "arcane": 22,
+          "formula": "q3+d",
+          "decade_start": 50
+        },
+        {
+          "age": "60",
+          "age_value": 60.0,
+          "arcane": 17,
+          "formula": "d",
+          "decade_start": 60
+        },
+        {
+          "age": "61 - 62.5",
+          "age_value": 61.25,
+          "arcane": 6,
+          "formula": "d+q1",
+          "decade_start": 60
+        },
+        {
+          "age": "62.5 - 63.5",
+          "age_value": 62.5,
+          "arcane": 7,
+          "formula": "d+mid",
+          "decade_start": 60
+        },
+        {
+          "age": "63.5 - 64",
+          "age_value": 63.75,
+          "arcane": 15,
+          "formula": "q1+mid",
+          "decade_start": 60
+        },
+        {
+          "age": "65",
+          "age_value": 65.0,
+          "arcane": 8,
+          "formula": "d+k",
+          "decade_start": 60
+        },
+        {
+          "age": "66 - 67.5",
+          "age_value": 66.25,
+          "arcane": 16,
+          "formula": "mid+q3",
+          "decade_start": 60
+        },
+        {
+          "age": "67.5 - 68.5",
+          "age_value": 67.5,
+          "arcane": 8,
+          "formula": "mid+k",
+          "decade_start": 60
+        },
+        {
+          "age": "68.5 - 69",
+          "age_value": 68.75,
+          "arcane": 8,
+          "formula": "q3+k",
+          "decade_start": 60
+        },
+        {
+          "age": "70",
+          "age_value": 70.0,
+          "arcane": 18,
+          "formula": "k",
+          "decade_start": 70
+        },
+        {
+          "age": "71 - 72.5",
+          "age_value": 71.25,
+          "arcane": 10,
+          "formula": "k+q1",
+          "decade_start": 70
+        },
+        {
+          "age": "72.5 - 73.5",
+          "age_value": 72.5,
+          "arcane": 10,
+          "formula": "k+mid",
+          "decade_start": 70
+        },
+        {
+          "age": "73.5 - 74",
+          "age_value": 73.75,
+          "arcane": 11,
+          "formula": "q1+mid",
+          "decade_start": 70
+        },
+        {
+          "age": "75",
+          "age_value": 75.0,
+          "arcane": 19,
+          "formula": "k+a",
+          "decade_start": 70
+        },
+        {
+          "age": "76 - 77.5",
+          "age_value": 76.25,
+          "arcane": 12,
+          "formula": "mid+q3",
+          "decade_start": 70
+        },
+        {
+          "age": "77.5 - 78.5",
+          "age_value": 77.5,
+          "arcane": 20,
+          "formula": "mid+a",
+          "decade_start": 70
+        },
+        {
+          "age": "78.5 - 79",
+          "age_value": 78.75,
+          "arcane": 21,
+          "formula": "q3+a",
+          "decade_start": 70
+        }
+      ],
+      "perimeter_points": [
+        {
+          "age": "0",
+          "age_value": 0.0,
+          "arcane": 1,
+          "formula": "a",
+          "side_index": 0,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "1 - 2.5",
+          "age_value": 1.25,
+          "arcane": 12,
+          "formula": "a+q1",
+          "side_index": 0,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "2.5 - 3.5",
+          "age_value": 2.5,
+          "arcane": 11,
+          "formula": "a+mid",
+          "side_index": 0,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "3.5 - 4",
+          "age_value": 3.75,
+          "arcane": 21,
+          "formula": "q1+mid",
+          "side_index": 0,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "5",
+          "age_value": 5.0,
+          "arcane": 10,
+          "formula": "a+f",
+          "side_index": 0,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "6 - 7.5",
+          "age_value": 6.25,
+          "arcane": 11,
+          "formula": "mid+q3",
+          "side_index": 0,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "7.5 - 8.5",
+          "age_value": 7.5,
+          "arcane": 19,
+          "formula": "mid+f",
+          "side_index": 0,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "8.5 - 9",
+          "age_value": 8.75,
+          "arcane": 10,
+          "formula": "q3+f",
+          "side_index": 0,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "10",
+          "age_value": 10.0,
+          "arcane": 9,
+          "formula": "f",
+          "side_index": 1,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "11 - 12.5",
+          "age_value": 11.25,
+          "arcane": 17,
+          "formula": "f+q1",
+          "side_index": 1,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "12.5 - 13.5",
+          "age_value": 12.5,
+          "arcane": 8,
+          "formula": "f+mid",
+          "side_index": 1,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "13.5 - 14",
+          "age_value": 13.75,
+          "arcane": 7,
+          "formula": "q1+mid",
+          "side_index": 1,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "15",
+          "age_value": 15.0,
+          "arcane": 17,
+          "formula": "f+b",
+          "side_index": 1,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "16 - 17.5",
+          "age_value": 16.25,
+          "arcane": 6,
+          "formula": "mid+q3",
+          "side_index": 1,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "17.5 - 18.5",
+          "age_value": 17.5,
+          "arcane": 7,
+          "formula": "mid+b",
+          "side_index": 1,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "18.5 - 19",
+          "age_value": 18.75,
+          "arcane": 15,
+          "formula": "q3+b",
+          "side_index": 1,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "20",
+          "age_value": 20.0,
+          "arcane": 8,
+          "formula": "b",
+          "side_index": 2,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "21 - 22.5",
+          "age_value": 21.25,
+          "arcane": 22,
+          "formula": "b+q1",
+          "side_index": 2,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "22.5 - 23.5",
+          "age_value": 22.5,
+          "arcane": 14,
+          "formula": "b+mid",
+          "side_index": 2,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "23.5 - 24",
+          "age_value": 23.75,
+          "arcane": 20,
+          "formula": "q1+mid",
+          "side_index": 2,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "25",
+          "age_value": 25.0,
+          "arcane": 6,
+          "formula": "b+g",
+          "side_index": 2,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "26 - 27.5",
+          "age_value": 26.25,
+          "arcane": 10,
+          "formula": "mid+q3",
+          "side_index": 2,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "27.5 - 28.5",
+          "age_value": 27.5,
+          "arcane": 22,
+          "formula": "mid+g",
+          "side_index": 2,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "28.5 - 29",
+          "age_value": 28.75,
+          "arcane": 11,
+          "formula": "q3+g",
+          "side_index": 2,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "30",
+          "age_value": 30.0,
+          "arcane": 16,
+          "formula": "g",
+          "side_index": 3,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "31 - 32.5",
+          "age_value": 31.25,
+          "arcane": 11,
+          "formula": "g+q1",
+          "side_index": 3,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "32.5 - 33.5",
+          "age_value": 32.5,
+          "arcane": 22,
+          "formula": "g+mid",
+          "side_index": 3,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "33.5 - 34",
+          "age_value": 33.75,
+          "arcane": 10,
+          "formula": "q1+mid",
+          "side_index": 3,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "35",
+          "age_value": 35.0,
+          "arcane": 6,
+          "formula": "g+c",
+          "side_index": 3,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "36 - 37.5",
+          "age_value": 36.25,
+          "arcane": 20,
+          "formula": "mid+q3",
+          "side_index": 3,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "37.5 - 38.5",
+          "age_value": 37.5,
+          "arcane": 14,
+          "formula": "mid+c",
+          "side_index": 3,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "38.5 - 39",
+          "age_value": 38.75,
+          "arcane": 22,
+          "formula": "q3+c",
+          "side_index": 3,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "40",
+          "age_value": 40.0,
+          "arcane": 8,
+          "formula": "c",
+          "side_index": 4,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "41 - 42.5",
+          "age_value": 41.25,
+          "arcane": 13,
+          "formula": "c+q1",
+          "side_index": 4,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "42.5 - 43.5",
+          "age_value": 42.5,
+          "arcane": 5,
+          "formula": "c+mid",
+          "side_index": 4,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "43.5 - 44",
+          "age_value": 43.75,
+          "arcane": 20,
+          "formula": "q1+mid",
+          "side_index": 4,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "45",
+          "age_value": 45.0,
+          "arcane": 15,
+          "formula": "c+y",
+          "side_index": 4,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "46 - 47.5",
+          "age_value": 46.25,
+          "arcane": 10,
+          "formula": "mid+q3",
+          "side_index": 4,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "47.5 - 48.5",
+          "age_value": 47.5,
+          "arcane": 22,
+          "formula": "mid+y",
+          "side_index": 4,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "48.5 - 49",
+          "age_value": 48.75,
+          "arcane": 11,
+          "formula": "q3+y",
+          "side_index": 4,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "50",
+          "age_value": 50.0,
+          "arcane": 7,
+          "formula": "y",
+          "side_index": 5,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "51 - 52.5",
+          "age_value": 51.25,
+          "arcane": 20,
+          "formula": "y+q1",
+          "side_index": 5,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "52.5 - 53.5",
+          "age_value": 52.5,
+          "arcane": 13,
+          "formula": "y+mid",
+          "side_index": 5,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "53.5 - 54",
+          "age_value": 53.75,
+          "arcane": 19,
+          "formula": "q1+mid",
+          "side_index": 5,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "55",
+          "age_value": 55.0,
+          "arcane": 6,
+          "formula": "y+d",
+          "side_index": 5,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "56 - 57.5",
+          "age_value": 56.25,
+          "arcane": 11,
+          "formula": "mid+q3",
+          "side_index": 5,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "57.5 - 58.5",
+          "age_value": 57.5,
+          "arcane": 5,
+          "formula": "mid+d",
+          "side_index": 5,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "58.5 - 59",
+          "age_value": 58.75,
+          "arcane": 22,
+          "formula": "q3+d",
+          "side_index": 5,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "60",
+          "age_value": 60.0,
+          "arcane": 17,
+          "formula": "d",
+          "side_index": 6,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "61 - 62.5",
+          "age_value": 61.25,
+          "arcane": 6,
+          "formula": "d+q1",
+          "side_index": 6,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "62.5 - 63.5",
+          "age_value": 62.5,
+          "arcane": 7,
+          "formula": "d+mid",
+          "side_index": 6,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "63.5 - 64",
+          "age_value": 63.75,
+          "arcane": 15,
+          "formula": "q1+mid",
+          "side_index": 6,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "65",
+          "age_value": 65.0,
+          "arcane": 8,
+          "formula": "d+k",
+          "side_index": 6,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "66 - 67.5",
+          "age_value": 66.25,
+          "arcane": 16,
+          "formula": "mid+q3",
+          "side_index": 6,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "67.5 - 68.5",
+          "age_value": 67.5,
+          "arcane": 8,
+          "formula": "mid+k",
+          "side_index": 6,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "68.5 - 69",
+          "age_value": 68.75,
+          "arcane": 8,
+          "formula": "q3+k",
+          "side_index": 6,
+          "side_fraction": 0.875
+        },
+        {
+          "age": "70",
+          "age_value": 70.0,
+          "arcane": 18,
+          "formula": "k",
+          "side_index": 7,
+          "side_fraction": 0.0
+        },
+        {
+          "age": "71 - 72.5",
+          "age_value": 71.25,
+          "arcane": 10,
+          "formula": "k+q1",
+          "side_index": 7,
+          "side_fraction": 0.125
+        },
+        {
+          "age": "72.5 - 73.5",
+          "age_value": 72.5,
+          "arcane": 10,
+          "formula": "k+mid",
+          "side_index": 7,
+          "side_fraction": 0.25
+        },
+        {
+          "age": "73.5 - 74",
+          "age_value": 73.75,
+          "arcane": 11,
+          "formula": "q1+mid",
+          "side_index": 7,
+          "side_fraction": 0.375
+        },
+        {
+          "age": "75",
+          "age_value": 75.0,
+          "arcane": 19,
+          "formula": "k+a",
+          "side_index": 7,
+          "side_fraction": 0.5
+        },
+        {
+          "age": "76 - 77.5",
+          "age_value": 76.25,
+          "arcane": 12,
+          "formula": "mid+q3",
+          "side_index": 7,
+          "side_fraction": 0.625
+        },
+        {
+          "age": "77.5 - 78.5",
+          "age_value": 77.5,
+          "arcane": 20,
+          "formula": "mid+a",
+          "side_index": 7,
+          "side_fraction": 0.75
+        },
+        {
+          "age": "78.5 - 79",
+          "age_value": 78.75,
+          "arcane": 21,
+          "formula": "q3+a",
+          "side_index": 7,
+          "side_fraction": 0.875
+        }
+      ]
+    }
+  },
+  "geometry": {
+    "human_design": {
+      "centers": 9,
+      "gates": 64,
+      "channels": 36,
+      "channels_in_svg": [
+        "1-8",
+        "10-20",
+        "10-34",
+        "10-57",
+        "11-56",
+        "12-22",
+        "13-33",
+        "16-48",
+        "17-62",
+        "18-58",
+        "19-49",
+        "2-14",
+        "20-34",
+        "20-57",
+        "21-45",
+        "23-43",
+        "24-61",
+        "25-51",
+        "26-44",
+        "27-50",
+        "28-38",
+        "29-46",
+        "3-60",
+        "30-41",
+        "32-54",
+        "34-57",
+        "35-36",
+        "37-40",
+        "39-55",
+        "4-63",
+        "42-53",
+        "47-64",
+        "5-15",
+        "6-59",
+        "7-31",
+        "9-52"
+      ],
+      "active_channels": [
+        "10-20",
+        "12-22",
+        "33-13",
+        "64-47"
+      ],
+      "geometry_status": "PASS",
+      "renderer": "Bodygraph v1.PY + BodyGraph.svg"
+    },
+    "destiny_matrix": {
+      "nodes": 32,
+      "geometry_status": "PASS",
+      "renderer": "DM v1.PY + DM.svg"
+    }
+  }
+}

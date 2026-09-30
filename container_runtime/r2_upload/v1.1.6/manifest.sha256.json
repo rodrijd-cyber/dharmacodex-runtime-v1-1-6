@@ -1,0 +1,51 @@
+{
+  "manifest_version": "1.1.6-container.1",
+  "asset_prefix": "v1.1.6",
+  "files": [
+    {
+      "path": "databases/Astro_Readings_V2.0.db",
+      "sha256": "ada5c3fde64571ed397c9b4f7a52fb967348e8771216a1c2bec304bd507c1d3f",
+      "size_bytes": 1077248
+    },
+    {
+      "path": "databases/DM_DB_v2.0.db",
+      "sha256": "e36912042d57cc6272fc84f3baa37e6733f189326829884fecfdf829b9effb76",
+      "size_bytes": 155648
+    },
+    {
+      "path": "databases/HD_DB_v2.0.db",
+      "sha256": "ea81362def392ea2c9f5e3993cdc2506e78f8da7c36199356dc4edeb5ef5a2db",
+      "size_bytes": 1339392
+    },
+    {
+      "path": "databases/NUM_DB_v2.0.db",
+      "sha256": "38ebeb5ac29a152a9ddc7d65ecec6cbe700699025d75508e728e3b37cc7b450b",
+      "size_bytes": 135168
+    },
+    {
+      "path": "geometry/BodyGraph.svg",
+      "sha256": "0A2FE658C2E4E517202EC6D28463CA73B0C579E186943656392D30B91917031F",
+      "size_bytes": 67662
+    },
+    {
+      "path": "geometry/DM.svg",
+      "sha256": "a774df18c6d08b32c3d5f5857b2220b44174e6a74b88cbae5efe93334da28e0e",
+      "size_bytes": 23376
+    },
+    {
+      "path": "ephe/sepl_18.se1",
+      "sha256": "ca1393ceab3a44fbc895887cf789c68819ae6a1cbc9b22225872dbe4ccd99a66",
+      "size_bytes": 484061
+    },
+    {
+      "path": "ephe/seas_18.se1",
+      "sha256": "a2cd8fc33807c78ca9a700c91c2e042258b12fc4796519e00781440b5ad8b2e2",
+      "size_bytes": 223004
+    },
+    {
+      "path": "ephe/semoon_18.se1",
+      "sha256": "1ca07bd67c24374d77226180c20a4f9996cba013697894810518e7eb582ca4f7",
+      "size_bytes": 1304771
+    }
+  ]
+}
